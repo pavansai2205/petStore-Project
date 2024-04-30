@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div id="menu" class="fas fa-bars"></div>
+    <a href="#" class="logo"><i class="fas fa-bone"></i>Pet store</a>
+
+    <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="consult_vet.html">consult a vet</a>
+      <a href="pharmacy.html">pharmacy</a>
+      <a href="offer.html">offer</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-icon"></i>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+    <form action="" id="search-box">
+      <input type="search" id="search" placeholder="search here">
+      <label for="search" class="fas fa-search"></label> 
+
+    </form>
+  </header>
+  <section class="container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm" action="/signup" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit" class="btn">Register</button>
+        <div class="clkbtn">
+          <p>or</p>
+          <a href="login">Click Here to Login</a>
+        </div>
+    </form>
+
+  </section>
+
+  <section class="footer">
+    <div class="share">
+      <a href="contact.html" class="btn">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <a href="https://www.youtube.com/" class="btn">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/" class="btn">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/?lang=en" class="btn">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="btn">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <h1 class="credit">| All Rights Reserved |</h1>
+  </section>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

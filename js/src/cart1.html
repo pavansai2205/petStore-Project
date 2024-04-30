@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div id="menu" class="fas fa-bars"></div>
+    <a href="#" class="logo"><i class="fas fa-bone"></i>Pet store</a>
+
+    <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="consult_vet.html">consult a vet</a>
+      <a href="pharmacy.html">pharmacy</a>
+      <a href="offer.html">offer</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-icon"></i>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+    <form action="" id="search-box">
+      <input type="search" id="search" placeholder="search here">
+      <label for="search" class="fas fa-search"></label> 
+
+    </form>
+  </header>
+  <section id="cart" class="">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Images</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+          <td><img src="images/treats1.webp" alt=""></td>
+          <td>Pedigree Chicken Flavour Dog Treats</td>
+          <td>₹140</td>
+          <td><input type="number" value="1"></td>
+          <td>₹140</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter your Coupon">
+        <button class="btn">Apply</button>
+      </div>
+    </div>
+    <div id="subtotal">
+      <h3>Cart Total</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>₹140</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>₹140</strong></td>
+        </tr>
+      </table>
+      <a href="ordersucess.html" class="btn">Proceed to checkout</a>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="share">
+      <a href="contact.html" class="btn">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <a href="https://www.youtube.com/" class="btn">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/" class="btn">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/?lang=en" class="btn">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="btn">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <h1 class="credit">| All Rights Reserved |</h1>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="../src/swiper-bundle.min.js"></script>
+  <script src="../src/main.js"></script>
+</body>
+</html>

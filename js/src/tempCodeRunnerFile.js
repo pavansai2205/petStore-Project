@@ -1,0 +1,1 @@
+hbs.registerPartials(partials_Path);
